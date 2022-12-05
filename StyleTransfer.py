@@ -35,15 +35,15 @@ from model.TransformerNet import TransformerNet
 
 
 batch_size = 8
-num_epoch = 10
+num_epoch = 60
 learning_rate = 1e-4
 content_weight = 1e5
 style_weight = 1e10
 log_interval = 50
 ckpt_dir = './checkpoints'
 season1 = 'winter'
-season2 = 'spring'
-method = 'shake_data' # 'one_season', 'shake_data', 'shake_feature'
+season2 = 'winter'
+method = 'one_season' # 'one_season', 'shake_data', 'shake_feature'
 
 
 # 2. Style Images and Train Data Loading
