@@ -191,6 +191,7 @@ def train():
                     (train_content_loss + train_style_loss) / (batch_id + 1)
                 )
                 print(msg)
+                print(epoch + 1)
                 msg = "\t\t\t\t\t\t\tval\t[content: {:.4f}\tstyle: {:.4f}\ttotal: {:.4f}]".format(
                     val_content_loss / len(val_dataset),
                     val_style_loss / len(val_dataset),
@@ -215,7 +216,7 @@ def train():
 
 # In[10]:
 
-
+print("trainstart")
 train()
 
 
@@ -247,6 +248,6 @@ def test():
 
 # In[12]:
 
-
+print("teststart")
 test()
 
