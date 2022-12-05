@@ -42,8 +42,8 @@ style_weight = 1e10
 log_interval = 50
 ckpt_dir = './checkpoints'
 season1 = 'winter'
-season2 = 'winter'
-method = 'one_season' # 'one_season', 'shake_data', 'shake_feature'
+season2 = 'spring'
+method = 'shake_data' # 'one_season', 'shake_data', 'shake_feature'
 
 
 # 2. Style Images and Train Data Loading
