@@ -80,7 +80,7 @@ print(len(train_dataset), len(val_dataset))
 
 # In[5]:
 
-device = 'cuda:0' if torch.cuda.is_available() else 'cpu'
+device = 'cuda' if torch.cuda.is_available() else 'cpu'
 print("Device: {}".format(device))
 
 
