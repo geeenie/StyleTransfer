@@ -80,8 +80,7 @@ print(len(train_dataset), len(val_dataset))
 
 # In[5]:
 
-os.environ["CUDA_VISIBLE_DEVICES"] = "0"
-device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
+device = torch.device("cuda")
 print("Device: {}".format(device))
 
 
